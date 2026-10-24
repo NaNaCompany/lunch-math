@@ -1,0 +1,70 @@
+{
+  "slug": "lunch-math",
+  "url": "https://nanalab.kr/lunch-math/",
+  "titles": {
+    "ko": "계산기 없이 점심값, 얼마나 빨리 맞힐 수 있을까?",
+    "en": "How fast can you split the lunch bill without a calculator?",
+    "zh": "不用计算器，你能多快算对午餐账单？",
+    "es": "¿Qué tan rápido calculas la cuenta sin calculadora?"
+  },
+  "descriptions": {
+    "ko": "혼자 즐기고 나만의 결과를 공유하는 작은 게임.",
+    "en": "A small solo game. Play, discover your result, and share.",
+    "zh": "独自挑战，看看自己的成绩，再分享给朋友。",
+    "es": "Un juego para ti. Descubre tu resultado y compártelo."
+  },
+  "color": "#543323",
+  "cardLines": {
+    "ko": [
+      "추가 메뉴와 할인까지.",
+      "계산기 없이 정산!"
+    ],
+    "en": [
+      "Extras. Discounts.",
+      "Split it without a calculator."
+    ],
+    "zh": [
+      "加菜，还要算折扣。",
+      "不用计算器来结账！"
+    ],
+    "es": [
+      "Extras y descuentos.",
+      "¡Sin calculadora!"
+    ]
+  },
+  "brands": {
+    "ko": "점심값 암산 탈출",
+    "en": "The Lunch Receipt Challenge",
+    "zh": "午餐心算挑战",
+    "es": "La cuenta del almuerzo"
+  },
+  "hero": {
+    "en": {
+      "first": "No calculator at lunch.",
+      "last": "How fast can you split the bill?",
+      "intro": [
+        "Extras and discounts included.",
+        "Work out what each person owes, all in your head.",
+        "Five questions track your accuracy and time."
+      ]
+    },
+    "zh": {
+      "first": "午餐结账不用计算器，",
+      "last": "你能多快算对？",
+      "intro": [
+        "加菜和折扣，全都要算。",
+        "每个人该付多少钱？试着心算出来。",
+        "五道题，记录正确数和用时。"
+      ]
+    },
+    "es": {
+      "first": "La cuenta, sin calculadora.",
+      "last": "¿Cuánto tardas en acertar?",
+      "intro": [
+        "Incluye los extras y los descuentos.",
+        "Calcula de cabeza cuánto paga cada persona.",
+        "Cinco preguntas miden tus aciertos y tu tiempo."
+      ]
+    }
+  }
+}

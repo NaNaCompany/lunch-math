@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{calculate,choices,makeQuestions,summarize}from'../../docs/ko/engine.js';
+test('discount applies after extra total, then divide people',()=>assert.deepEqual(calculate({price:8000,people:4,extra:8000,discount:20}),{subtotal:40000,discount:8000,total:32000,perPerson:8000}));
+test('100 generated menus always settle in exact integer won',()=>{for(let i=0;i<100;i++){const qs=makeQuestions();assert.equal(qs.length,5);qs.forEach(q=>{const a=calculate(q);assert.equal(a.total%q.people,0);assert.equal(a.subtotal*q.discount%100,0);assert.ok(Number.isInteger(a.perPerson))})}});
+test('answers unique and contain correct amount exactly once, including zero',()=>{for(const n of [0,100,500,12300]){const a=choices(n);assert.equal(a.length,4);assert.equal(new Set(a).size,4);assert.equal(a.filter(v=>v===n).length,1);assert.ok(a.every(v=>v>=0))}});
+test('accuracy and solve times reflect actual submissions',()=>assert.deepEqual(summarize([{correct:true,ms:1000},{correct:false,ms:3000}]),{correct:1,averageMs:2000,totalMs:4000}));
